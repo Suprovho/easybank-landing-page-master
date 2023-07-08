@@ -26,17 +26,25 @@ header{
    display: flex;
    align-items: center;
    justify-content: space-around;
+   /* background-color: red; */
    flex-direction: row;
    padding: 20px;
    /* color: var(---VeryLightGray); */
    cursor: pointer;
    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
+   width: 100%;
 }
+
+
+
+
 
 .hamburger_icon {
    display: none;
 }
+
+
 
 .hamburger_menu ul {
    display: flex;
@@ -44,7 +52,9 @@ header{
    gap: 31px;
 }
 
-.hamburger_menu li {
+
+
+.lis-f {
    color: var(---GrayishBlue);
    /* height: 100%;
     position: relative; */
@@ -227,8 +237,8 @@ header{
    /* border: 2px solid red; */
    display: flex;
    justify-content: center;
-   max-width: 1062px;
-   max-height: 298.42px;
+   width: 1062px;
+   height: 298.42px;
    align-items: center;
    gap: 10px;
    /* display: flex;
@@ -342,9 +352,7 @@ footer{
    /* gap: 20px; */
 }
 
-.footer-logo{
-   /* border: 2px solid red; */
-}
+
 
 .footer-log-con{
    /* border: 2px solid red; */
@@ -372,10 +380,9 @@ footer{
    
 } */
 
-.fottimg:hover{
-   background-color: var(---LimeGreen);
-   border-radius: 50%;
+.footer-img i:hover{
    cursor: pointer;
+   color: var(---LimeGreen);
 }
 
 .middle-menu{
